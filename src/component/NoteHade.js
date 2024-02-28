@@ -18,7 +18,7 @@ export const NoteHade = ({ name, color }) => {
           {iconName.toUpperCase()}
         </p>
       </div>
-      <p>{name}</p>
+      <p className="text-white">{name}</p>
     </div>
   );
 };
